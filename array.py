@@ -6,5 +6,8 @@ def main():
     print(f"score: {score}")
     print(f"sum: {total}")
     print(f"average: {average}")
+    print(f"--local branch--")
+    print(f"maximum: {max(score)}")
+    print(f"minimum: {min(score)}")
 if __name__ == "__main__":
     main()
